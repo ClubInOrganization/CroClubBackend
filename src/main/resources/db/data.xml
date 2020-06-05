@@ -53,7 +53,7 @@
         </rollback>
     </changeSet>
 
-    <changeSet id="2022 1104-04" author="sime">
+<!--    <changeSet id="2022 1104-04" author="sime">
         <createTable tableName="ROLES">
             <column autoIncrement="true" name="ID" type="INT">
                 <constraints primaryKey="true"/>
@@ -65,7 +65,7 @@
         <rollback>
             <dropTable tableName="ROLES"/>
         </rollback>
-    </changeSet>
+    </changeSet>  -->
 
     <changeSet id="20200102" author="sime">
         <insert tableName="ROLES">
